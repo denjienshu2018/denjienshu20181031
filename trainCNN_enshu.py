@@ -126,6 +126,7 @@ with tf.Session() as sess:
     # グラフの初期化
     sess.run(tf.initialize_all_variables())
     # 学習済みグラフの読み込み
+    # 学習途中から始める場合はこちらのコメントを外し、sess.run(tf.initialize_all_variables())をコメントアウトしてください。
     # saver.restore(sess, "./20181031model")
     
     # training_epoch回学習を行う
