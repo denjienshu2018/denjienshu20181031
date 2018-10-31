@@ -124,9 +124,9 @@ with tf.Session() as sess:
     # グラフの保存クラス
     saver = tf.train.Saver()
     # グラフの初期化
-    # sess.run(tf.initialize_all_variables())
+    sess.run(tf.initialize_all_variables())
     # 学習済みグラフの読み込み
-    saver.restore(sess, "./20181031model")
+    # saver.restore(sess, "./20181031model")
     
     # training_epoch回学習を行う
     for i in range(training_epochs):
