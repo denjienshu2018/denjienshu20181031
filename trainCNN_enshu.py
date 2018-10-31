@@ -131,7 +131,7 @@ with tf.Session() as sess:
     # training_epoch回学習を行う
     for i in range(training_epochs):
         """
-        課題11:fields_train, charges_trainをbatch_sizeずつ取り出すし、batch, outputとする。
+        課題11:fields_train, charges_trainをbatch_sizeずつ取り出し、batch, outputとする。
         batch:(batch_size, 1800)
         output:(batch_size, 8)
         となる。
