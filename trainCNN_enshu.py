@@ -7,8 +7,8 @@ import pickle
 
 # 初期値を設定する。
 batch_size = 100
-training_epochs = 100
-display_epochs = 5
+training_epochs = 1000
+display_epochs = 10
 num_of_charges = 2
 
 # pickleファイルを読み込む。
